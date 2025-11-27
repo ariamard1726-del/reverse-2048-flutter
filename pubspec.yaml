@@ -3,7 +3,6 @@ description: A professional 2048 game for Android & iOS
 publish_to: 'none'
 
 version: 1.0.0+1
-versionCode: 1
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -14,7 +13,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   provider: ^6.1.1
   shared_preferences: ^2.2.2
-  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
@@ -30,11 +28,3 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
-  
-  # تنظیمات برای اندروید و iOS
-  android:
-    package: com.yourname.reverse2048
-    versionCode: 1
-    
-  ios:
-    bundleIdentifier: com.yourname.reverse2048
