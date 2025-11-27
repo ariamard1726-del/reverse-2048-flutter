@@ -1,0 +1,18 @@
+name: reverse_2048
+description: A Flutter-based 2048 game with reverse logic for Android.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.25.0
+
+flutter:
+  uses-material-design: true
